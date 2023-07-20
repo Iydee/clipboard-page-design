@@ -1,0 +1,257 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+img {
+  position: relative;
+  max-width: 1348px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.svg-container {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.svg-container svg {
+  position: absolute;
+  margin-top: 125px;
+  padding: 0;
+}
+
+.history {
+  display: flex;
+  margin-top: -100px;
+  justify-content: center;
+  font-size: 35px;
+}
+
+.deviceparagraph {
+  display: flex;
+  margin-top: -50px;
+  justify-content: center;
+  align-content: center;
+}
+
+p {
+  font-size: 23px;
+  color: grey;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 30px;
+}
+
+button {
+  margin: 20px;
+  padding: 20px;
+  width: 250px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+
+.Mac:hover {
+  color: hsl(233, 100%, 69%);
+  background-color: white;
+}
+
+.iOS:hover {
+  color: hsl(171, 66%, 44%);
+  background-color: white;
+}
+
+.iOS {
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 2px 5px hsl(171, 54%, 81%);
+}
+
+.Mac {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 2px 5px hsl(170, 9%, 87%);
+}
+
+.snippets {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.everything p {
+  margin-top: -30px;
+  font-size: 20px;
+}
+
+.grid-item {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 80px;
+}
+
+.item1 {
+  margin-left: -150px;
+}
+
+.item2 {
+  margin-top: 90px;
+}
+
+.item2 h4 {
+  font-size: 25px;
+}
+
+.item2 p {
+  font-size: 17px;
+  text-align: left;
+  margin-top: -20px;
+  line-height: 1.6;
+}
+
+.access {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.clicks p {
+  display: flex;
+  margin-top: -30px;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+}
+
+.phone-container {
+  display: flex;
+  margin-top: 80px;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+}
+
+.supercharge {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.boost p {
+  display: flex;
+  margin-top: -30px;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+}
+
+.grid-item1 {
+  display: grid;
+  margin-top: 70px;
+  grid-template-columns: 5% auto auto auto 5%;
+}
+
+.grid-item1 h4 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.grid-item1 p {
+  font-size: 13px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.itemA1 p {
+  margin-top: -10px;
+}
+
+.svg1-container {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.company-logos {
+  display: grid;
+  margin-top: 150px;
+  grid-template-columns: 9% auto auto auto auto auto 9%;
+}
+
+.clipboard h4 {
+  display: flex;
+  margin-top: 150px;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.available p {
+  display: flex;
+  margin-top: -30px;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.originalfooter {
+  margin-top: 120px;
+  display: grid;
+  grid-template-columns: 25% auto auto auto 20% 20%;
+  background-color: hsl(204, 15%, 94%);
+}
+
+.grided {
+  display: flex;
+  justify-content: center;
+}
+
+.svg2-container {
+  display: flex;
+  align-items: center;
+}
+
+.svg2-container svg {
+  width: 60px;
+  height: 60px;
+  float: right;
+}
+
+h6 {
+  font-size: 20px;
+  color: grey;
+  font-weight: 100;
+  text-align: left;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.grided5 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.fbenclosed {
+  padding-right: 25px;
+}
+
+.tweetenclosed {
+  padding-right: 25px;
+}
